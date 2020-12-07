@@ -1,3 +1,3 @@
 # Wording
 React project inspired by popular Serbian TV show Slagalica. When the app is started, a random 13-letter long word is fetched from Wordnik API, converted into an array, sorted randomly and every letter is displayed separately whith click event attached to it. When clicked, the letter will become selected letted and will be displayed under the original array. The goal is to create the longest possible word out of the letters while each letter can be only used once. A user has 30 seconds to submit a word and it will be send for a validation to Wordnik API. If the word is good, a scrabble score will be displayed, if not an error will be alerted. 
-![alt text](https://github.com/lazarmilovic/Wording/blob/master/Preview.png?raw=true)
+![alt text](https://github.com/lazarmilovic/Wording/blob/main/Preview.png?raw=true)
