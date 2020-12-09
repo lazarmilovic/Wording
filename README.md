@@ -3,7 +3,7 @@ React project inspired by popular Serbian TV show Slagalica. When the app is sta
 
 ## Table of content
 
-* [Genetal info](#general_info)
+* [General info](#general_info)
 * [Screenshot](#screenshot)
 * [Technologies](#technologies)
 * [Setup](#setup)
