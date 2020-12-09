@@ -8,7 +8,7 @@ React project inspired by popular Serbian TV show Slagalica. When the app is sta
 * [Technologies](#technologies)
 * [Setup](#setup)
 
-## General Info
+## General info
 When app is rendered, all three buttons are avaialble- Get the Word, Remove Last Letter and Finished. Get the Word button is conditionally rendered- while const gameHasStatred is false, it will be rendered. Once the user gets a word and starts the game, the Get the Word button will disappear. 
 
 A user start the game by clicking Get the Word button which will trigger FetchTheWord function. It will send a REST request to Wordnik API and will fetch a random 13-letter-long word. The REST result will be converted into an array and sorted randomly and each letter will be rendered as a Button component. Each Button component has a "click" event listener attached to it. The idea is to try to find a word as long as possible from the given letters with using one letter only once. To achive it, one part of the state are constants that controle the letters- word, setWord which will get the get the original word as an array and set it by randomly sorting it, selected and setSelected which will contain selected letters and set it after every click on available letter or after every click on Remove Last Letter button, and disabled and setDisabled which will contain indexes of the sellected letters which will be used to pass the status of the letter dynamically. Once the letter is selected, it's index will be passed to disabled array and it's status will be changed- it will get a red background that indicates that the letter is used. The selected letter and it's indexes are kept in separated variables beacuse a word can have the same letter multiple times and in order to remove the exact letter from the available, I am passing it's index to a disabled array. 
@@ -33,5 +33,5 @@ If a user submits the word within 30 seconds, the word will be sent as a RESTful
 To start the game, you would need to have Node.js installed. If you have it, download the code and open the Terminal. If you opened it from your IDE it should be navigated to the root of the project. If you didn't, navigate the Terminal to the project and type: 
 `npm start`
 
-The project should be opened in your default browser and the URL should be http://localhost:3030.
+The project should be opened in your default browser by the localhost at port 3030.
 
