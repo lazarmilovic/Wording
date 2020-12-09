@@ -3,10 +3,10 @@ React project inspired by popular Serbian TV show Slagalica. When the app is sta
 
 ## Table of content
 
-* [Genetal info] (#general_info)
-* [Screenshot] (#screenshot)
-* [Technologies] (#technologies)
-* [Setup] (#setup)
+* [Genetal info](#general_info)
+* [Screenshot](#screenshot)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
 ## General Info
 When app is rendered, all three buttons are avaialble- Get the Word, Remove Last Letter and Finished. Get the Word button is conditionally rendered- while const gameHasStatred is false, it will be rendered. Once the user gets a word and starts the game, the Get the Word button will disappear. 
@@ -28,7 +28,7 @@ If a user submits the word within 30 seconds, the word will be sent as a RESTful
 * REST
 * CSS
 
-# Setup
+## Setup
 
 To start the game, you would need to have Node.js installed. If you have it, download the code and open the Terminal. If you opened it from your IDE it should be navigated to the root of the project. If you didn't, navigate the Terminal to the project and type: 
 `npm start`
