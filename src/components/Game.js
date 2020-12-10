@@ -11,7 +11,7 @@ const Game = (props) => {
   const [selected, setSelected] = useState([]);
   const [disabled, setDisabled] = useState([]);
   const [gameHasStarted, setGameHasStarted] = useState(false);
-  const [originalWord, setOriginalWord] = useState("empty");
+  const [originalWord, setOriginalWord] = useState("");
   const [timeLeft, setTimeLeft] = useState(30);
   const [gameIsFinished, setGameIsFinished] = useState(false);
 
