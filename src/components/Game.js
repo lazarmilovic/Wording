@@ -40,7 +40,7 @@ const Game = (props) => {
     setWord(fetchedWord);
     setOriginalWord(fetched);
     setGameHasStarted(true);
-    console.log(word);
+    
   };
   //this function is representing onClick event for each letter- since the word can include same letters, the function will check if the index of the specific letter is in disabled array. If it is, it will alert that the letter is already used- if not, it will update the selected and disabled array with the letter and it's index.
   const selectTheLetter = (letter, ind) => {
